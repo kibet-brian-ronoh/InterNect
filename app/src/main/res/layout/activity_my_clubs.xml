@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyClubs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/ic_group_black"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DSC UON"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:id="@+id/dscmc"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dscmc"
+                android:layout_marginLeft="10dp"
+                android:text="071234565"
+                android:id="@+id/contact"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contact"
+                android:layout_marginLeft="10dp"
+                android:text="dscuon@gmail.com"
+                android:id="@+id/email"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email"
+                android:layout_marginLeft="10dp"
+                android:text="UPCOMING EVENT:"
+                android:textStyle="bold"
+                android:id="@+id/newevent"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/newevent"
+                android:layout_marginLeft="10dp"
+                android:text="First Years Orientation @ 2pm Today"
+                android:id="@+id/neweventdesc"
+                android:layout_marginTop="2dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ATTEND"
+                android:id="@+id/attend"
+                android:layout_below="@id/neweventdesc"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

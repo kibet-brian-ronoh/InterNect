@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.internect.ui.home.EventsFragment"
+        android:label="Upcoming Events"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.internect.ui.gallery.MyClubsFragment"
+        android:label="My Clubs"
+        tools:layout="@layout/fragment_myclubs" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.internect.ui.slideshow.ClubsFragment"
+        android:label="Clubs"
+        tools:layout="@layout/fragment_clubs" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.internect.ui.tools.AboutUsFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_aboutus" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.internect.ui.send.MyAccountFragment"
+        android:label="My Account"
+        tools:layout="@layout/fragment_my_account" />
+
+    <activity
+        android:id="@+id/nav_share"
+        android:name="com.example.internect.LogIn"
+        tools:layout="@layout/activity_log_in" >
+
+    </activity>
+</navigation>

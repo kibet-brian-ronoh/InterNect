@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigationDrawer">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="200dp"
+            android:id="@+id/ll1"
+            android:layout_margin="3dp">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/ic_report_black_24dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Public Lecture on AI by Dr. Wang"
+                    android:textStyle="bold"
+                    android:id="@+id/title"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Venue: Taifa Hall"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/venue"
+                    android:layout_below="@+id/title"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time: 1pm - 2pm"
+                    android:id="@+id/time"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/venue"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date: Today"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/date"
+                    android:layout_below="@+id/time"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Attend"
+                    android:id="@+id/attendpl"
+                    android:layout_below="@id/date"
+                    android:layout_marginTop="5dp"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="200dp"
+            android:layout_below="@+id/ll1"
+            android:layout_margin="3dp">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/ic_report_black_24dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beat ya Campo"
+                    android:textStyle="bold"
+                    android:id="@+id/title2"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Venue: Grad Square"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/venue2"
+                    android:layout_below="@+id/title2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time: 6pm - Late Night"
+                    android:id="@+id/time2"
+                    android:layout_marginTop="5dp"
+                    android:layout_below="@+id/venue2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date: 27th Feb 2020"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/date2"
+                    android:layout_below="@+id/time2"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Attend"
+                    android:layout_below="@id/date2"
+                    android:layout_marginTop="5dp"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="start"
+        app:itemTextColor="@color/colorAccent"
+        app:itemIconTint="@color/colorAccent"
+        app:menu="@menu/drawermenu"
+        app:headerLayout="@layout/header"
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>

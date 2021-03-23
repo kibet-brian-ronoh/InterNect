@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="200dp"
+                android:id="@+id/ll1"
+                android:layout_margin="3dp">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/lect"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Public Lecture on AI by Dr. Wang"
+                        android:textStyle="bold"
+                        android:id="@+id/title"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Venue: Taifa Hall"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/venue"
+                        android:layout_marginLeft="25dp"
+                        android:layout_below="@+id/title"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: 1pm - 2pm"
+                        android:id="@+id/time"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/venue"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date: Today"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/date"
+                        android:layout_marginLeft="25dp"
+                        android:layout_below="@+id/time"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Attend"
+                        android:id="@+id/attendpl"
+                        android:layout_below="@id/date"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="5dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="200dp"
+                android:layout_below="@+id/ll1"
+                android:id="@+id/ll2"
+                android:layout_margin="3dp">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/infinix"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Beat ya Campo"
+                        android:textStyle="bold"
+                        android:id="@+id/title1"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Venue: Grad Square"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/venue1"
+                        android:layout_marginLeft="25dp"
+                        android:layout_below="@+id/title1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: 6pm - Late Night"
+                        android:id="@+id/time1"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@+id/venue1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date: 27th Feb 2020"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/date1"
+                        android:layout_marginLeft="25dp"
+                        android:layout_below="@+id/time1"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Attend"
+                        android:id="@+id/attendpl1"
+                        android:layout_below="@id/date1"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="5dp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="200dp"
+                android:id="@+id/ll3"
+                android:layout_below="@+id/ll2"
+                android:layout_margin="3dp">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/uonvc"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VC's Address"
+                        android:textStyle="bold"
+                        android:id="@+id/title2"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Venue: Taifa Hall"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/venue2"
+                        android:layout_marginLeft="25dp"
+                        android:layout_below="@+id/title2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: 10am - 12pm"
+                        android:id="@+id/time2"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_below="@+id/venue2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date: 16th March 2020"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/date2"
+                        android:layout_marginLeft="25dp"
+                        android:layout_below="@+id/time2"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Attend"
+                        android:id="@+id/attend2"
+                        android:layout_below="@id/date2"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="5dp"/>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="200dp"
+                android:id="@+id/ll4"
+                android:layout_below="@+id/ll3"
+                android:layout_margin="3dp">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/lecture2"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Careers Counselling"
+                        android:textStyle="bold"
+                        android:id="@+id/title3"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="25dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Venue: Millenium Hall"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/venue3"
+                        android:layout_marginLeft="25dp"
+                        android:layout_below="@+id/title3"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: 2pm - 4pm"
+                        android:id="@+id/time3"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_below="@+id/venue3"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date: 18th March 2020"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/date3"
+                        android:layout_marginLeft="25dp"
+                        android:layout_below="@+id/time3"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Attend"
+                        android:id="@+id/attend3"
+                        android:layout_marginLeft="25dp"
+                        android:layout_below="@id/date3"
+                        android:layout_marginTop="5dp"/>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="200dp"
+                android:id="@+id/ll5"
+                android:layout_below="@+id/ll4"
+                android:layout_margin="3dp">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/mrmissuon"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mr. and Miss UON"
+                        android:textStyle="bold"
+                        android:id="@+id/title4"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="25dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Venue: KICC"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/venue4"
+                        android:layout_marginLeft="25dp"
+                        android:layout_below="@+id/title4"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time: 6pm - Late Night"
+                        android:id="@+id/time4"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_below="@+id/venue4"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date: April 5th 2020"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/date4"
+                        android:layout_marginLeft="25dp"
+                        android:layout_below="@+id/time4"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Attend"
+                        android:id="@+id/attend4"
+                        android:layout_below="@id/date4"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="5dp"/>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

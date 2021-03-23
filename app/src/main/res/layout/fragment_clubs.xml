@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/dsclogo"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DSC UON"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:id="@+id/dsc"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dsc"
+                    android:text="Developer Students Club UON"
+                    android:id="@+id/decription"
+                    android:layout_marginTop="2dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JOIN"
+                    android:layout_below="@id/decription"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/dscjoin"
+                    android:layout_marginLeft="30dp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/download"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Red Cross"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:id="@+id/rc"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rc"
+                    android:text="Red Cross UoN Chapter"
+                    android:id="@+id/decription2"
+                    android:layout_marginTop="2dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JOIN"
+                    android:layout_below="@id/decription2"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/rcjoin"
+                    android:layout_marginLeft="30dp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/scoutslogo"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Scouts Club"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:id="@+id/sc"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sc"
+                    android:text="Scouts Club of The University of Nairobi"
+                    android:id="@+id/decription3"
+                    android:layout_marginTop="2dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JOIN"
+                    android:layout_below="@id/decription3"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/scjoin"
+                    android:layout_marginLeft="30dp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/uonlogo"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Drama Club"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:id="@+id/dc"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dc"
+                    android:text="Scouts Club of The University of Nairobi"
+                    android:id="@+id/decription4"
+                    android:layout_marginTop="2dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JOIN"
+                    android:layout_below="@id/decription4"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/dcjoin"
+                    android:layout_marginLeft="30dp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/uonlogo"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Music Club"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:id="@+id/mc"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mc"
+                    android:text="Scouts Club of The University of Nairobi"
+                    android:id="@+id/decription5"
+                    android:layout_marginTop="2dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JOIN"
+                    android:layout_below="@id/decription5"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/mcjoin"
+                    android:layout_marginLeft="30dp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

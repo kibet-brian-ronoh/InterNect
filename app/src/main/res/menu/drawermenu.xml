@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/myclubs" android:title="My Clubs" android:icon="@drawable/ic_list_black"/>
+    <item android:id="@+id/clubs" android:title="Clubs" android:icon="@drawable/ic_group_black"/>
+    <item android:id="@+id/events" android:title="Events" android:icon="@drawable/ic_report_black_24dp"/>
+    <item android:id="@+id/aboutus" android:title="About Us" android:icon="@drawable/ic_live_help_black_24dp"/>
+    <item android:id="@+id/logout" android:title="Log Out" android:icon="@drawable/ic_arrow_back_black_24dp"/>
+</menu>
